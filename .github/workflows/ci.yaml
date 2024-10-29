@@ -3,7 +3,9 @@ name: CI/CD
 on:
   push:
     branches:
-      - master
+      - integration
+      - development
+      - production
   pull_request:
 
 jobs:
